@@ -1,0 +1,93 @@
+        *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+        .main-container{
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 657px;
+            width: 100%;
+            display: flex;
+            background-color: rgb(16, 16, 61);
+            
+
+        }
+        #result{
+            height: 50px;
+            width: 500px;
+            color: black;
+            text-align: center;
+            position: relative;
+            bottom: -40px;
+            left: 32%;
+        }
+        #can{
+            border: 1px solid black;
+            position: relative;
+            left: 10%;
+            top: 5%;
+            text-align: center;
+        }
+        .container{
+            background-color: #ffffff;
+            height: 657px; 
+            width: 100%;
+            padding-bottom: 22x;
+            position: relative;
+            display: flex;
+        }
+        .container h1{
+            text-align: center;
+            margin-top: 2%;
+            position: relative;
+            margin-left: 20%;
+            
+        }
+        .container label{
+            color: #7e7d7d;
+
+        }
+        .side{
+            position: relative;
+
+            width: 250px;
+            height: 100%;
+            background-color: rgb(21, 15, 66);
+
+        }
+        .side h3{
+            color: #ffffff;
+        }
+
+        .mid{
+            margin-top: 200px;
+            margin-left: 10px;
+        }
+        .mid #inp {
+            position: relative;
+            background-color: transparent;
+            border-top: transparent;
+            border-left: transparent;
+            border-right: transparent;
+            color: #ffffff;
+            width: 200px;
+            height: 35px;
+            border-bottom: 1px solid #ffffff;
+        }
+        .mid #inp:hover{
+            border-bottom: 1px solid red;
+            
+        }
+        
+        
+        .mid #bt {
+            position: relative;
+            margin-left: 25%;
+            height: 23px;
+            width: 60px;
+        }
+        
