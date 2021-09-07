@@ -99,6 +99,18 @@
             margin-left: 25%;
             height: 23px;
             width: 60px;
+            border-radius: 2px;
+            border: 1px solid white;
+        }
+        .mid #bt:hover{
+            position: relative;
+            margin-left: 25%;
+            height: 23px;
+            width: 60px;
+            background-color: red;
+            color: #ffffff;
+            border: 1px solid red;
+            border-radius: 2px;
         }
         
 
@@ -111,12 +123,13 @@
         <div class="container">
             <div class="side">
                 <div class="mid">
-                    <h3>enter the number to display the rectangles based on <br> input</h3><br>
+                    <h3>Enter the number to display the rectangles based on <br> input</h3><br>
                    
-                    <input type="text" id="inp" autofocus="autofocus" placeholder="type number " ><br><label for="inp">eg: 12</label>
+                    <input type="text" id="inp" autofocus="autofocus" placeholder="type number " ><br><label for="inp">eg: 5</label>
                     <br><button id="bt" 
                     onclick="drawRectangles
-                    (document.getElementById('inp').value)">submit</button>
+                    (document.getElementById('inp').value)">submit</button><br><br>
+                    <label style="color: rgb(255, 0, 0);" for="inp" >maximun number of rectangles is: 12</label><br>
                 </div>
             </div>
             <div class="cont">
